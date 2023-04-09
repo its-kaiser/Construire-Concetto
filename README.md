@@ -1,1 +1,3 @@
 # Construire-Concetto
+Autism is a  serious developmental disorder that impairs the ability to communicate and interact.A major symptom of autism is hand flapping which is seen in most of the children suffering from autism .
+The project contains a module which is a wrist band which will detect the hand flapping motion caused by autism in children and will alert the child with buzzer to stop the motion. The project also contains an app which will fetch the data from the hardware and will store it for analysis.Hardware is made using Node MCU and MPU6050 which will detect the hand flapping motion and will trigger the buzzer. The app will store the data of the number of times the patient repeats the behaviour and the time interval in which the behaviour is repeated.
