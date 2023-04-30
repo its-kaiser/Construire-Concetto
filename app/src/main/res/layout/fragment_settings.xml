@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="10dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/home_gradient"
+    tools:context=".Settings">
+
+
+    <TextView
+        android:id="@+id/general"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sts_bg"
+        android:drawablePadding="6dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/general"
+        android:textColor="@color/colorBlack"
+        app:drawableStartCompat="@drawable/ic_baseline_key_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notifications"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sts_bg"
+        android:drawablePadding="6dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/notifications"
+        android:textColor="@color/colorBlack"
+        app:drawableStartCompat="@drawable/ic_baseline_notifications_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/general" />
+
+    <TextView
+        android:id="@+id/storage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sts_bg"
+        android:drawablePadding="6dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/storage_and_data"
+        android:textColor="@color/colorBlack"
+        app:drawableStartCompat="@drawable/ic_baseline_storage_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/notifications" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sts_bg"
+        android:drawablePadding="6dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/app_language"
+        android:textColor="@color/colorBlack"
+        app:drawableStartCompat="@drawable/ic_baseline_language_24"
+        app:layout_constraintEnd_toEndOf="@id/storage"
+        app:layout_constraintStart_toStartOf="@id/storage"
+        app:layout_constraintTop_toBottomOf="@id/storage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

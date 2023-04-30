@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WiseHands</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="passcode">********</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="already_have_an_account">Already Have an account?</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="signup">SignUp?</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="luffytaro_8">Luffytaro ,8</string>
+    <string name="luffytaro">Luffytaro</string>
+    <string name="essay">I\'m Luffytaro .I\'m 7 years old and i love eating.I love the world it\'s really colorful but i love my mom the most. My hobbies are drawing and watching lots of cartoon.</string>
+    <string name="general">General</string>
+    <string name="notifications">Notifications</string>
+    <string name="storage_and_data">Storage and data</string>
+    <string name="app_language">App language</string>
+    <string name="login_signup">LogIn/SignUp</string>
+    <string name="stream_to_cloud">STREAM TO CLOUD</string>
+    <string name="flap_indicator">FLAP INDICATOR</string>
+    <string name="audio">AUDIO</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="flap_interval_197">FLAP INTERVAL: 197</string>/>
+</resources>
